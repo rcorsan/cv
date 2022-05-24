@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+h1{
+margin-top: 0;
+}
+.top{
+  background-color: #F4BFBF;
+  height: 40px;
+}
+.middle{
+  background-color: aqua;
+  height: 30px;
+}
+
+.bottom{
+height: 20px;
+background-color:blue;
+}
+.nube{
+  height: 40px;
+  
+}
+.monta{
+  height: 200px;
+}
