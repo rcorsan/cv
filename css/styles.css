@@ -1,44 +1,80 @@
-body{
+body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Abel", sans-serif;
 }
-h1,p{
-  font-family: 'Lobster', cursive;
-  margin-top: 0 auto;
-
+.top-container {
+  background-color: #f4bfbf;
+  height: 655px;
+  margin-top: -60px;
 }
-.top{
-  background-color: #F4BFBF;
-  
+h1 {
+  font-family: "Electrolize", sans-serif;
+  font-size: 5rem;
+  padding-top: 20%;
+  color:indianred;
 }
-.nubetop{
-  height: 50px;
+h1>span{
+  color: red;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: "Electrolize", sans-serif;
+  font-weight: normal;
+  color:lightcoral;
+}
+h3 {
+  font-family: "Cabin", sans-serif;
+  color: lightcoral;
+  margin: auto auto 50px auto ;
+}
+p{
+  font-size: 1.5rem;
+}
+.profile{
+  width: auto;
+  max-height: 100%;
+  margin-top: 30px;
+}
+.front{
+  width: auto;
+  height:140px;
+  padding-bottom: 100px;
+  float: left;
+  padding-right: 80px;
+}
+.back{
+  width: auto;
+  height:130px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+  float:right;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 80px auto ;
+  text-align: left;
+}
+.btn{
+  border-radius: 3px;
+  border-width: 0;
+  padding: 8px;
+  border-color: crimson;
+  background-color: #f4bfbf;
+  color: red;
+  margin-bottom: 50px;
+}
+.bottom-container {
+  background-color: #f4bfbf;
+  height: 90px;
+}
+.bottom-container>p {
+font-size: 1rem;
+margin-top: 25px;
+}
+.footer-link{
   position: relative;
   top: 20px;
-  left: 20%;
-}
-.nubebot{
-  left: 300px;
-  height: 50px;
-  position: absolute;
-  
-}
-.monta{
-  height: 200px;
-  position: relative;
-  top: 70px;
-}
-.bird{
-  height: 50px;
-  position: absolute;
-  top: 220px;
-  left: 40%;
-}
-.bird2{
-  height: 50px;
-  position: absolute;
-  top: 220px;
-  left: 80%;
-  top:20%;
+  padding: 10px;
+  color: red;
 }
